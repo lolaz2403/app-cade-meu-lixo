@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E Cadê Meu Lixo?</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main class="app-wrapper">
+    <section class="splash-card">
+      <!-- Cabecalho superior -->
+      <header class="top-bar">
+        <img src="logo.png" alt="Logo E Cadê Meu Lixo?" class="nav-logo" />
+        <nav class="nav-links">
+          <a href="#inicio" class="active">Início</a>
+          <a href="#rotas">Rotas</a>
+          <a href="#sobre">Sobre</a>
+        </nav>
+      </header>
+
+      <!-- Conteúdo central na área branca -->
+      <div class="hero-content">
+        <img src="logo.png" alt="E Cadê Meu Lixo?" class="hero-logo" />
+        <h1>E Cadê Meu Lixo?</h1>
+        <p>Acompanhe o trajeto da coleta em tempo real e saiba exatamente quando o caminhão vai passar na sua rua.</p>
+
+        <button class="btn-avancar" onclick="avancarTela()">
+          Avançar
+          <span class="seta">→</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function avancarTela() {
+      // Substitua 'mapa.html' pelo nome da próxima tela do seu app
+      window.location.href = "mapa.html";
+    }
+  </script>
+</body>
+</html>
